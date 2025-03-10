@@ -1,9 +1,7 @@
-/* El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. 
-Aquí deberás desarrollar la lógica para resolver el problema.
-*/
+//Código JS del challenge
 let amigos =[];
 
-
+//Función para agregar amigos a la lista
 function agregarAmigo(){
     let amigoIngresado = document.getElementById("amigo").value;
     let listaMostrar = document.getElementById("listaAmigos");
@@ -24,6 +22,7 @@ function agregarAmigo(){
     }
 }
 
+//Función para sortear de manera aleatoria de la lista de amigos
 function sortearAmigo(){
     let resultadoMostrar = document.getElementById("resultado");
     resultadoMostrar.innerHTML="";
